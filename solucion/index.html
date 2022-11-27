@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulacro Examen Final</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="css/responsive.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="headerContainer">
+        <div>
+          <div class="topnav" id="myTopnav">
+            <a href="#home"><img src="img/logo.webp" class="logo" /></a>
+            <a href="#news">Catalog</a>
+            <a href="#contact">Resources</a>
+            <a href="#about">Community</a>
+            <a href="#about">Pricing</a>
+            <a href="#news">Business Solutions</a>
+            <a href="#news" class="split"
+              ><img src="img/lupa.png" class="logo"
+            /></a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a href="#news" class="split">Login</a>
+          </div>
+        </div>
+      </div>
+      <div class="bodyContainer">
+        <div class="row">
+          <img src="img/banner.webp" />
+        </div>
+        <div class="row">
+          <h1 class="title1">
+            Join the millions learning to code with Codecademy for free
+          </h1>
+          <form>
+            <div>
+              <label>Email</label>
+              <input type="text" />
+            </div>
+            <div>
+              <label>Password</label>
+              <input type="text" />
+            </div>
+            <div>
+              <button type="submit">Sing up</button>
+            </div>
+          </form>
+          <p class="parrafo">
+            By signing up for Codecademy, you agree to Codecademy's
+            <a href="#">Terms of Service</a> & <a href="#">Privacy Policy</a>.
+            Or sign up using:
+          </p>
+          <div class="linkContainer">
+            <strong>Or sign up using:</strong>
+            <ul class="links">
+              <li><img src="img/linkedin.png" /></li>
+              <li><img src="img/google.png" /></li>
+              <li><img src="img/facebook.png" /></li>
+              <li><img src="img/github.png" /></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="cardContainer">
+        <div class="row">
+          <div class="card">
+            <div class="cardTitle">Course</div>
+            <div class="cardBody">
+              <h1>Learn Javascript</h1>
+              <ul>
+                <li>Beginner friendly, 11 Lessons</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card">
+            <div class="cardTitle">Course</div>
+            <div class="cardBody">
+              <h1>Learn HTML</h1>
+              <ul>
+                <li>Beginner friendly, 6 Lessons</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card">
+            <div class="cardTitle">Course</div>
+            <div class="cardBody">
+              <h1>Learn SQL</h1>
+              <ul>
+                <li>Beginner friendly, 4 Lessons</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
